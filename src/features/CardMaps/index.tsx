@@ -24,7 +24,7 @@ export default function Maps() {
           maps.map((currentMap) => (
             <Grid item key={currentMap.id} lg={3} md={4} sm={6} xs={12}>
               <CardMap
-                link={`/${currentMap.normalizedName}`}
+                link={`/${currentMap.name}`}
                 title={currentMap.name}
                 durationInfo={`${currentMap.raidDuration} minutes`}
                 playersInfo={currentMap.players}

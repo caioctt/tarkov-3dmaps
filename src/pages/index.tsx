@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import PageTitle from '@/components/PageTitle';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
-import Maps from '@/features/Maps';
+import Maps from '@/features/CardMaps';
 import { Container, useTheme } from '@mui/material';
 import { css } from '@emotion/react';
 
